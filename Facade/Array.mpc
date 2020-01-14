@@ -1,0 +1,19 @@
+// $Id: Array.mpc 820 2011-01-17 15:30:41Z hillj $
+
+project (Array) {
+  exename = Array-run
+
+  Source_Files {
+    Array.cpp
+  }
+  Inline_Files {
+    Array.inl
+  }
+  Header_Files {
+    Array.h
+  }
+}
+
+
+
+project (Array) {  exename = array-jhhSource_Files {Array.cppdriver.cpp}Header_Files {    Array.h}  Inline_Files {  Array.inl}}
